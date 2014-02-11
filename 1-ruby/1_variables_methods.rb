@@ -3,7 +3,7 @@
 #0. A quoi sert une variable ?
 =begin
 
-Assigner et stocker une valeur pour pouvoir la manipuler ensuite
+Assigner et stocker une valeur pour pouvoir la manipuler par la suite
 
 =end
 
@@ -20,11 +20,12 @@ On assigne la donnée de type string à la variable name
 # Définissez des variables stockant tous les types de données standard que vous connaissez.
 begin
 
+string = "string"
 integer = 3
-hash = {}
-array = array
+hash = {key: value}
+array = ["hello", 2]
 
-  
+
 end
 
 #3. Comment permuter les 2 variables a et b ?
@@ -38,6 +39,8 @@ begin
 c = b
 a = b
 b = c
+
+a b = b a
 
 
 end
