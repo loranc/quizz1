@@ -3,21 +3,27 @@
 #0. A quoi sert une variable ?
 =begin
 
+Assigner et stocker une valeur pour pouvoir la manipuler ensuite
 
 =end
 
 #1.Que fait-on précisément à la ligne suivante ? 
 name = "Poney"
+
 =begin
 
+On assigne la donnée de type string à la variable name
 
 =end
 
 #2. Built-in classes
 # Définissez des variables stockant tous les types de données standard que vous connaissez.
 begin
-  
-  
+
+integer = 3
+hash = {}
+array = array
+
   
 end
 
@@ -29,12 +35,18 @@ begin
   a = 1
   b = 2
 
+c = b
+a = b
+b = c
+
+
 end
 
 
 #4. A quoi sert une méthode ?
 =begin
 
+Un méthode sert à stoker du code pouvant être exécuté lorsque elle est appellée. 
 
 =end
 
@@ -45,8 +57,28 @@ end
 #.. chacune doit renvoyer un type de données différent (String, Hash, Fixnum )
 begin
 
-
+###########1
+def hello(surname, name, city)
+  "hello #{surname}, #{name}, #{city}"
 end
+
+hello("francois", "premier", "vatican")
+
+###########2
+def say_hi
+  "Hi"
+end
+
+say_hi
+
+###########3
+def hello(surname, name, option = {})
+  "hello #{surname}, #{name}, #{option[:city]}"
+end
+
+hello("francois", "name", city: "vatican")
+
+
 
 #5. OPTIONNEL: Refactorez avec des sous-méthodes (démerdez-vous)
 begin
