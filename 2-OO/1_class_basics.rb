@@ -6,7 +6,8 @@ end
 
 #2.1 Qu'est ce qu'un constructeur ? Que doit-il prendre comme arguments ?
 =begin
-  
+
+Le constructeur va remplir les premiers 
   
 =end
 
@@ -25,19 +26,22 @@ book.read
 #4. Quelles est la différence entre book et Book ? Détaillez
 =begin
 
+book est un objet instance de la class Book. L'objet est instancié à partir de la class Book est avec l'argument "20 milles lieues sous les mers"
 
 
 =end
 
 #4.1 Qu'est ce qu'une variable d'instance ?
 =begin
-  
+une variable d'instance est une variable qui est rendue disponible et peut s'utiliser dans l'ensemble de l'objet de l'instance de la classe et uniquement dans celle ci. 
+
   
 =end
 
 #4.2 Comment et où se définit-elle ? 
 =begin
-  
+
+avec un @, de partout à l'intérieur de l'objet.
   
 =end
 
