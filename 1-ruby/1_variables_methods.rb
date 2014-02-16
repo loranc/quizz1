@@ -49,7 +49,10 @@ end
 #4. A quoi sert une méthode ?
 =begin
 
-Un méthode sert à stoker du code pouvant être exécuté lorsque elle est appellée. 
+Un méthode sert à enregistrer une portion du code dans un espace determiné du programme. 
+Elle pourra ensuite être appellé par son nom pour être executée, notamment sur des objets, avec des arguments et bloc de codes.
+
+
 
 =end
 
